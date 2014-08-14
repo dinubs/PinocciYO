@@ -4,7 +4,7 @@ Pinoccio and the amazing YO api
 
 ###Parts Needed
 
-- Pinoccio
+- [Pinoccio](http://pinocc.io)
 
 - 2 Jumper Cables
 
