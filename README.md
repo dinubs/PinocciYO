@@ -8,6 +8,12 @@ Then get your Pinoccio API Token from http://docs.pinocc.io
 
 Then put your Pinoccio Token on line 12
 
-'''js
+```js
 var api = pinoccio(//Token Here)
-'''
+```
+
+Then put you YO API Token on line 20
+
+```js
+http.post('http://api.justyo.co/yoall', {api_token: //YO API Token Here}); 
+```
