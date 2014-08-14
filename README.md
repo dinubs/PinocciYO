@@ -17,3 +17,5 @@ Then put you YO API Token on line 20
 ```js
 http.post('http://api.justyo.co/yoall', {api_token: //YO API Token Here}); 
 ```
+
+That's it, super simple. Now to the wiring.
