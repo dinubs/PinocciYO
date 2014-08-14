@@ -2,7 +2,7 @@ Pinocci-YO
 =========
 Pinoccio and the amazing YO api
 
-First create a developer account with YO at http://yoapi.justyo.com
+First create a developer account with YO at http://yoapi.justyo.co
 
 Then get your Pinoccio API Token from http://docs.pinocc.io
 
