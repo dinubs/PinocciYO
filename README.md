@@ -2,25 +2,32 @@ Pinocci-YO
 =========
 Pinoccio and the amazing YO api
 
-First create a developer account with YO at http://yoapi.justyo.co
+###Parts Needed
 
-Then get your Pinoccio API Token from http://docs.pinocc.io
+- Pinoccio
 
-Then put your Pinoccio Token on line 12
+- 2 Jumper Cables
 
-```js
-var api = pinoccio(//Token Here)
-```
+- Push Button
 
-Then put you YO API Token on line 20
+1. First create a developer account with YO at http://yoapi.justyo.co
 
-```js
-http.post('http://api.justyo.co/yoall', {api_token: //YO API Token Here}); 
-```
+2. Then get your Pinoccio API Token from http://docs.pinocc.io
+
+3. Then put your Pinoccio Token on line 12
+
+	```js
+	var api = pinoccio(//Token Here)
+	```
+
+4. Then put you YO API Token on line 20
+	```js
+	http.post('http://api.justyo.co/yoall', {api_token: //YO API Token Here}); 
+	```
 
 Wiring
 ======
 
-![Example PinocciYO Wiring](http://imgur.com/hgORkUD.jpg "Example PinocciYO Wiring" =250x)
+<img src="http://imgur.com/hgORkUD.jpg" alt="Example PinocciYO Wiring" width="400" />
 
-I have the button input pin going to "D2", and another jumper cable running to the Pinoccio ground pin
+I have the button input pin going to pin "D2", and another jumper cable running to the Pinoccio ground pin
