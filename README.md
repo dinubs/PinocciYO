@@ -18,4 +18,8 @@ Then put you YO API Token on line 20
 http.post('http://api.justyo.co/yoall', {api_token: //YO API Token Here}); 
 ```
 
-That's it, super simple. Now to the wiring.
+That's it, super simple. Now to the wiring. 
+
+![Example PinocciYO Wiring](http://imgur.com/hgORkUD.jpg "Example PinocciYO Wiring")
+
+I have the button input pin going to "D2", and another jumper cable running to the Pinoccio ground pin
